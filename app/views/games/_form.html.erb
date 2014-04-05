@@ -1,0 +1,61 @@
+<%= form_for(@game) do |f| %>
+  <% if @game.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@game.errors.count, "error") %> prohibited this game from being saved:</h2>
+
+      <ul>
+      <% @game.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :date %><br>
+    <%= f.date_select :date %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :rule_flags %><br>
+    <%= f.text_field :rule_flags %>
+  </div>
+  <div class="field">
+    <%= f.label :p1_id %><br>
+    <%= f.number_field :p1_id %>
+  </div>
+  <div class="field">
+    <%= f.label :p2_id %><br>
+    <%= f.number_field :p2_id %>
+  </div>
+  <div class="field">
+    <%= f.label :p3_id %><br>
+    <%= f.number_field :p3_id %>
+  </div>
+  <div class="field">
+    <%= f.label :p4_id %><br>
+    <%= f.number_field :p4_id %>
+  </div>
+  <div class="field">
+    <%= f.label :p1_final_score %><br>
+    <%= f.number_field :p1_final_score %>
+  </div>
+  <div class="field">
+    <%= f.label :p2_final_score %><br>
+    <%= f.number_field :p2_final_score %>
+  </div>
+  <div class="field">
+    <%= f.label :p3_final_score %><br>
+    <%= f.number_field :p3_final_score %>
+  </div>
+  <div class="field">
+    <%= f.label :p4_final_score %><br>
+    <%= f.number_field :p4_final_score %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

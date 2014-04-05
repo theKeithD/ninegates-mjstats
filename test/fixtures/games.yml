@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2014-04-04
+  name: MyString
+  rule_flags: 
+  p1_id: 1
+  p2_id: 1
+  p3_id: 1
+  p4_id: 1
+  p1_final_score: 1
+  p2_final_score: 1
+  p3_final_score: 1
+  p4_final_score: 1
+
+two:
+  date: 2014-04-04
+  name: MyString
+  rule_flags: 
+  p1_id: 1
+  p2_id: 1
+  p3_id: 1
+  p4_id: 1
+  p1_final_score: 1
+  p2_final_score: 1
+  p3_final_score: 1
+  p4_final_score: 1

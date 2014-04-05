@@ -1,0 +1,55 @@
+table: hands
+- game_id (int)
+- round_name (varchar(5))na
+-- E1, S2R2, etc
+- p1_change (signed int)
+- p1_yaku (bit(34))
+-- bitfield, based on static yaku list
+- p1_is_yakuman (bool)
+-- if is_yakuman is true, yaku column corresponds to a yakuman ID
+-- read from yakuman list instead
+- p2_change (signed int)
+- p2_yaku (bit(34))
+- p2_is_yakuman (bool)
+- p3_change (signed int)
+- p3_yaku (bit(34))
+- p3_is_yakuman (bool)
+- p4_change (signed int)
+- p4_yaku (bit(34))
+- p4_is_yakuman (bool)
+- dora (byte(12))
+-- [DUR][DUR][DUR][DUR]
+--  P1   P2   P3   P4
+
+table: games
+- game_id (int)
+- game_date (date)
+- game_name (varchar(x))
+- game_flags(bitfield)
+-- flags for specific game rules (red dora, etc)
+- p1_id (int)
+- p2_id (int)
+- p3_id (int)
+- p4_id (int)
+- p1_final_score (int)
+- p2_final_score (int)
+- p3_final_score (int)
+- p4_final_score (int)
+
+table: players
+- player_id (int)
+- player_name (varchar(x))
+- <stats go here>
+
+flatfile: yaku
+- yaku_id (int)
+- yaku_name (varchar(x))
+- yaku_han (int)
+-- 13 = yakuman, 26 = double yakuman
+- yaku_type (int)
+-- -1 for value -1 when open, 0 for closed only, 1 for same value closed/open
+
+flatfile: game_rules
+- game_rule_id (int)
+- game_rule_name (varchar(x))
+- game_rule_desc (varchar(x))

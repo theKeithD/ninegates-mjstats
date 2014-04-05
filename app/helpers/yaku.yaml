@@ -1,0 +1,235 @@
+yaku:
+  - id: 1
+    name: "Tsumo"
+    han: 1
+    yaku_type: 0
+  - id: 2
+    name: "Reach"
+    han: 1
+    yaku_type: 0
+  - id: 3
+    name: "Ippatsu"
+    han: 1
+    yaku_type: 0
+  - id: 4
+    name: "Tanyao"
+    han: 1
+    yaku_type: 1
+  - id: 5
+    name: "Yakuhai (Unknown)"
+    han: 1
+    yaku_type: 1
+  - id: 6
+    name: "Yakuhai (Green)"
+    han: 1
+    yaku_type: 1
+  - id: 7
+    name: "Yakuhai (Red)"
+    han: 1
+    yaku_type: 1
+  - id: 8
+    name: "Yakuhai (White)"
+    han: 1
+    yaku_type: 1
+  - id: 9
+    name: "Yakuhai (East)"
+    han: 1
+    yaku_type: 1
+  - id: 10
+    name: "Yakuhai (South)"
+    han: 1
+    yaku_type: 1
+  - id: 11
+    name: "Yakuhai (West)"
+    han: 1
+    yaku_type: 1
+  - id: 12
+    name: "Yakuhai (North)"
+    han: 1
+    yaku_type: 1
+  - id: 13
+    name: "Pinfu"
+    han: 1
+    yaku_type: 0
+  - id: 14
+    name: "Honitsu (Half Flush)"
+    han: 3
+    yaku_type: -1
+  - id: 15
+    name: "Iipeikou"
+    han: 1
+    yaku_type: 0
+  - id: 16
+    name: "Toitoi"
+    han: 2
+    yaku_type: 1
+  - id: 17
+    name: "Sanshoku Doujun"
+    han: 2
+    yaku_type: -1
+  - id: 18
+    name: "Chiitoitsu (Seven Pairs)"
+    han: 2
+    yaku_type: 0
+  - id: 19
+    name: "Ittsuu (Straight)"
+    han: 3
+    yaku_type: -1
+  - id: 20
+    name: "Chanta"
+    han: 2
+    yaku_type: -1
+  - id: 21
+    name: "Chinitsu (Full Flush)"
+    han: 6
+    yaku_type: -1
+  - id: 22
+    name: "San Ankou"
+    han: 2
+    yaku_type: 1
+  - id: 23
+    name: "Houtei"
+    han: 1
+    yaku_type: 1
+  - id: 24
+    name: "Haitei"
+    han: 1
+    yaku_type: 1
+  - id: 25
+    name: "Junchan"
+    han: 3
+    yaku_type: -1
+  - id: 26
+    name: "Rinshan Kaihou"
+    han: 1
+    yaku_type: 1
+  - id: 27
+    name: "Double Reach"
+    han: 2
+    yaku_type: 0
+  - id: 28
+    name: "Shousangen"
+    han: 2
+    yaku_type: 1
+  - id: 29
+    name: "Honroutou"
+    han: 2
+    yaku_type: 1
+  - id: 30
+    name: "San Shoku Doukou"
+    han: 2
+    yaku_type: 1
+  - id: 31
+    name: "Chankan"
+    han: 1
+    yaku_type: 1
+  - id: 32
+    name: "Ryanpeikou"
+    han: 3
+    yaku_type: 0
+  - id: 33
+    name: "San Kantsu"
+    han: 2
+    yaku_type: 1
+  - id: 34
+    name: "Sanrenkou"
+    han: 2
+    yaku_type: 1
+  
+yakuman:
+  - id: 1
+    name: "Kokushi Musou"
+    han: 13
+    yaku_type: 0
+  - id: 2
+    name: "Daisangen"
+    han: 13
+    yaku_type: 1
+  - id: 3
+    name: "Suuankou"
+    han: 13
+    yaku_type: 0
+  - id: 4
+    name: "Tsuuiisou"
+    han: 13
+    yaku_type: 1
+  - id: 5
+    name: "Shousuushi"
+    han: 13
+    yaku_type: 1
+  - id: 6
+    name: "Kokushi Ankan (Chankan+)"
+    han: 13
+    yaku_type: 0
+  - id: 7
+    name: "Ryuuiisou"
+    han: 13
+    yaku_type: 1
+  - id: 8
+    name: "Chinroutou"
+    han: 13
+    yaku_type: 1
+  - id: 9
+    name: "Chuuren Poutou"
+    han: 13
+    yaku_type: 0
+  - id: 10
+    name: "Suukantsu"
+    han: 13
+    yaku_type: 1
+  - id: 11
+    name: "Tenhou"
+    han: 13
+    yaku_type: 0
+  - id: 12
+    name: "Chiihou"
+    han: 13
+    yaku_type: 0
+  - id: 13
+    name: "Renhou"
+    han: 13
+    yaku_type: 0
+  - id: 14
+    name: "Paarenchan"
+    han: 13
+    yaku_type: 1
+  - id: 15
+    name: "Daisharin"
+    han: 13
+    yaku_type: 0
+  - id: 16
+    name: "Daichikurin"
+    han: 13
+    yaku_type: 0
+  - id: 17
+    name: "Daisuurin"
+    han: 13
+    yaku_type: 0
+  - id: 18
+    name: "Suurenkou"
+    han: 13
+    yaku_type: 1
+  - id: 19
+    name: "Thirteen Broken"
+    han: 13
+    yaku_type: 0
+  - id: 20
+    name: "Daisuushi"
+    han: 26
+    yaku_type: 1
+  - id: 21
+    name: "Daichisei"
+    han: 26
+    yaku_type: 0
+  - id: 22
+    name: "Suuankou Tanki"
+    han: 26
+    yaku_type: 0
+  - id: 23
+    name: "Junsei Kokushi Musou"
+    han: 26
+    yaku_type: 0
+  - id: 24
+    name: "Junsei Chuuren Poutou"
+    han: 26
+    yaku_type: 0

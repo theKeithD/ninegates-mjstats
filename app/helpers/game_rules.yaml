@@ -1,0 +1,10 @@
+game_rules:
+  - id: 1
+    rule_name: "Red Dora"
+    rule_desc: "?"
+  - id: 2
+    rule_name: "Closed Tanyao"
+    rule_desc: "?"
+  - id: 3
+    rule_name: "Other Rules Go Here"
+    rule_desc: "?"

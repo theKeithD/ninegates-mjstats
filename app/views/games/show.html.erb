@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @game.date %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @game.name %>
+</p>
+
+<p>
+  <strong>Rule flags:</strong>
+  <%= @game.rule_flags %>
+</p>
+
+<p>
+  <strong>P1:</strong>
+  <%= @game.p1_id %>
+</p>
+
+<p>
+  <strong>P2:</strong>
+  <%= @game.p2_id %>
+</p>
+
+<p>
+  <strong>P3:</strong>
+  <%= @game.p3_id %>
+</p>
+
+<p>
+  <strong>P4:</strong>
+  <%= @game.p4_id %>
+</p>
+
+<p>
+  <strong>P1 final score:</strong>
+  <%= @game.p1_final_score %>
+</p>
+
+<p>
+  <strong>P2 final score:</strong>
+  <%= @game.p2_final_score %>
+</p>
+
+<p>
+  <strong>P3 final score:</strong>
+  <%= @game.p3_final_score %>
+</p>
+
+<p>
+  <strong>P4 final score:</strong>
+  <%= @game.p4_final_score %>
+</p>
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>
