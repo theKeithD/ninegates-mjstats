@@ -4,7 +4,7 @@ class Game < ActiveRecord::Base
 	has_many :players
 	has_many :hands
 
-	bitfield :rule_flags, game_flag_hash()
+	bitfield :rule_flags, game_flag_hash
 
 	def game_flag_hash
 		# TODO: get some sleep and implement this
