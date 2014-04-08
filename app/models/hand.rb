@@ -11,5 +11,9 @@ class Hand < ActiveRecord::Base
 	def yaku_bitfield_hash
 		# TODO: get some sleep and implement this 
 		# something something load yaku.yaml
+		yaku = Hash.new
+		yaku[1] = "Riichi"
+
+		yaku
 	end
 end

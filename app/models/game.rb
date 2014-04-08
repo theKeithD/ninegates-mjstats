@@ -9,5 +9,9 @@ class Game < ActiveRecord::Base
 	def game_flag_hash
 		# TODO: get some sleep and implement this
 		# something something load game_rules.yaml
+		flags = Hash.new
+		flags[1] = "TODO"
+
+		flags
 	end
 end
