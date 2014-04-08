@@ -1,0 +1,73 @@
+<%= form_for(@hand) do |f| %>
+  <% if @hand.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@hand.errors.count, "error") %> prohibited this hand from being saved:</h2>
+
+      <ul>
+      <% @hand.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :round_name %><br>
+    <%= f.text_field :round_name %>
+  </div>
+  <div class="field">
+    <%= f.label :p1_change %><br>
+    <%= f.number_field :p1_change %>
+  </div>
+  <div class="field">
+    <%= f.label :p1_yaku %><br>
+    <%= f.text_field :p1_yaku %>
+  </div>
+  <div class="field">
+    <%= f.label :p1_is_yakuman %><br>
+    <%= f.check_box :p1_is_yakuman %>
+  </div>
+  <div class="field">
+    <%= f.label :p2_change %><br>
+    <%= f.number_field :p2_change %>
+  </div>
+  <div class="field">
+    <%= f.label :p2_yaku %><br>
+    <%= f.text_field :p2_yaku %>
+  </div>
+  <div class="field">
+    <%= f.label :p2_is_yakuman %><br>
+    <%= f.check_box :p2_is_yakuman %>
+  </div>
+  <div class="field">
+    <%= f.label :p3_change %><br>
+    <%= f.number_field :p3_change %>
+  </div>
+  <div class="field">
+    <%= f.label :p3_yaku %><br>
+    <%= f.text_field :p3_yaku %>
+  </div>
+  <div class="field">
+    <%= f.label :p3_is_yakuman %><br>
+    <%= f.check_box :p3_is_yakuman %>
+  </div>
+  <div class="field">
+    <%= f.label :p4_change %><br>
+    <%= f.number_field :p4_change %>
+  </div>
+  <div class="field">
+    <%= f.label :p4_yaku %><br>
+    <%= f.text_field :p4_yaku %>
+  </div>
+  <div class="field">
+    <%= f.label :p4_is_yakuman %><br>
+    <%= f.check_box :p4_is_yakuman %>
+  </div>
+  <div class="field">
+    <%= f.label :dora %><br>
+    <%= f.text_field :dora %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

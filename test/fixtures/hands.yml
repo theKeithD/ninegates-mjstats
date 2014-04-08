@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  round_name: MyString
+  p1_change: 1
+  p1_yaku: 
+  p1_is_yakuman: false
+  p2_change: 1
+  p2_yaku: 
+  p2_is_yakuman: false
+  p3_change: 1
+  p3_yaku: 
+  p3_is_yakuman: false
+  p4_change: 1
+  p4_yaku: 
+  p4_is_yakuman: false
+  dora: 
+
+two:
+  round_name: MyString
+  p1_change: 1
+  p1_yaku: 
+  p1_is_yakuman: false
+  p2_change: 1
+  p2_yaku: 
+  p2_is_yakuman: false
+  p3_change: 1
+  p3_yaku: 
+  p3_is_yakuman: false
+  p4_change: 1
+  p4_yaku: 
+  p4_is_yakuman: false
+  dora: 

@@ -1,0 +1,53 @@
+<h1>Listing hands</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Round name</th>
+      <th>P1 change</th>
+      <th>P1 yaku</th>
+      <th>P1 is yakuman</th>
+      <th>P2 change</th>
+      <th>P2 yaku</th>
+      <th>P2 is yakuman</th>
+      <th>P3 change</th>
+      <th>P3 yaku</th>
+      <th>P3 is yakuman</th>
+      <th>P4 change</th>
+      <th>P4 yaku</th>
+      <th>P4 is yakuman</th>
+      <th>Dora</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hands.each do |hand| %>
+      <tr>
+        <td><%= hand.round_name %></td>
+        <td><%= hand.p1_change %></td>
+        <td><%= hand.p1_yaku %></td>
+        <td><%= hand.p1_is_yakuman %></td>
+        <td><%= hand.p2_change %></td>
+        <td><%= hand.p2_yaku %></td>
+        <td><%= hand.p2_is_yakuman %></td>
+        <td><%= hand.p3_change %></td>
+        <td><%= hand.p3_yaku %></td>
+        <td><%= hand.p3_is_yakuman %></td>
+        <td><%= hand.p4_change %></td>
+        <td><%= hand.p4_yaku %></td>
+        <td><%= hand.p4_is_yakuman %></td>
+        <td><%= hand.dora %></td>
+        <td><%= link_to 'Show', hand %></td>
+        <td><%= link_to 'Edit', edit_hand_path(hand) %></td>
+        <td><%= link_to 'Destroy', hand, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Hand', new_hand_path %>

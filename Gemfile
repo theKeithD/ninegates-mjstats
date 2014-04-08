@@ -6,6 +6,7 @@ gem 'rails', '4.0.4'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
+gem 'foreigner' # include foreign keys
 
 # Use Thin for webserver
 gem 'eventmachine', '>= 1.0.0.beta'
@@ -39,6 +40,7 @@ end
 
 # App-specific gems
 gem 'has-bit-field'
+gem 'bitfields'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -1,8 +1,8 @@
 table: hands
 - game_id (int)
-- round_name (varchar(5))na
+- round_name (varchar(5))
 -- E1, S2R2, etc
-- p1_change (signed int)
+- p1_change (int)
 - p1_yaku (bit(34))
 -- bitfield, based on static yaku list
 - p1_is_yakuman (bool)
