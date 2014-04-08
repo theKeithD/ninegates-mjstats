@@ -12,6 +12,9 @@ gem 'foreigner' # include foreign keys
 gem 'eventmachine', '>= 1.0.0.beta'
 gem 'thin'
 
+# for Heroku
+gem 'rails_12factor', group: :production
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
